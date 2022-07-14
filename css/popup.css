@@ -102,7 +102,7 @@
     display: inline-block;
     height: 15px;
     width: 15px;
-    background: url(/img/name.svg) center no-repeat;
+    background: url(./img/name.svg) center no-repeat;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -111,7 +111,7 @@
 }
 
 .email::before {
-    background-image: url(/img/email.svg);
+    background-image: url(./img/email.svg);
 }
 
 .popup__button {
@@ -149,7 +149,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 30px;
     height: 30px;
-    background-image: url(/img/close.png);
+    background-image: url(./img/close.png);
     fill: black;
     background-position: center;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@
 }
 
 .popup__close:hover {
-    background-image: url(/img/close1.png);
+    background-image: url(./img/close1.png);
 }
 
 .popup__close:active {
