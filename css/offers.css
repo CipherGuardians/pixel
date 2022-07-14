@@ -1,0 +1,56 @@
+.section-3 {
+    padding-bottom: 110px;
+    padding-top: 110px;
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers__item {
+    text-align: center;
+    flex: 1;
+}
+
+.offers__title {
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 28px;
+    margin: 12px 0;
+    display: inline-block;
+    max-width: 600px;
+}
+
+.offers__text {
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.offers__button {
+    background-color: #4e86ff;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.offers__button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.offers__button:active {
+    transform: scale(1.1);
+}
+
+.offers__img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}

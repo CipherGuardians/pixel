@@ -1,0 +1,129 @@
+.section-1 {
+    background-image: url(/img/phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 191px;
+    padding-top: 36px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__link {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav__link--contacts {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav__link--selected {
+    color: rgb(0, 217, 255) e;
+    border: 2px rgb(0, 217, 255) solid;
+    padding: 11px 11px 11px 11px;
+    border-radius: 50px;
+}
+
+.nav__link--active {
+    color: blue;
+}
+
+.nav__link:hover {
+    color: rgb(0, 217, 255);
+    border-color: rgb(0, 217, 255);
+}
+
+.nav__item {
+    margin-right: 30px;
+    position: relative;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.soc__list {
+    display: flex;
+}
+
+.soc__link {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.soc__item:hover {
+    transform: scale(1.2);
+}
+
+.soc__item {
+    margin-right: 30px;
+}
+
+.soc__item:last-child {
+    margin-right: 0;
+}
+
+.soc__text {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+
+.soc {
+    display: flex;
+}
+
+.contacts--header {
+    background-color: rgb(44, 44, 44);
+    position: absolute;
+    right: 0;
+    top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.contacts--header::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(44, 44, 44);
+    transform: rotate(45deg);
+    position: absolute;
+    top: -7px;
+    right: 15px;
+}
+
+.contacts--active {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}

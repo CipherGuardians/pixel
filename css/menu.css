@@ -1,0 +1,125 @@
+.section--1 {
+    background-color: rgb(32, 41, 44);
+    padding-bottom: 191px;
+    padding-top: 36px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.menu__section {
+    max-height: 1315px;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+
+.menu__section--active {
+    max-height: 55px;
+}
+
+.menu__title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 52px;
+    color: #ffffff;
+    margin-bottom: 36px;
+    display: inline-block;
+    max-width: 600px;
+    border-bottom: 1px solid white;
+    padding: 10px 50px;
+    letter-spacing: 0.8px;
+}
+
+.menu__button {
+    display: inline-block;
+    background-color: transparent;
+    font-weight: 700;
+    text-align: left;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    width: 100%;
+    border-bottom: 1px solid rgb(130, 130, 130);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    letter-spacing: 0.5px;
+}
+
+.menu__button:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.menu__icon {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-180deg);
+    transition: 0.8s;
+}
+
+.menu__icon--active {
+    transform: rotate(0deg);
+}
+
+.menu__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+}
+
+.menu__item {
+    height: 390px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    background-color: white;
+}
+
+.menu__item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.menu__name {
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.menu__text {
+    display: block;
+    color: rgb(3, 3, 3);
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    margin-bottom: 15px;
+}
+
+.menu__price {
+    color: white;
+    background-color: #0029ae;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.3px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.menu__img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    object-fit: contain;
+    margin-bottom: 10px;
+}

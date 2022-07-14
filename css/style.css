@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url(/css/reset.css);
+@import url(/css/header.css);
+@import url(/css/preview.css);
+@import url(/css/footer.css);
+@import url(/css/offers.css);
+@import url(/css/popup.css);
+@import url(/css/slider.css);
+@import url(/css/menu.css);
+@import url(/css/notification.css);
+.container {
+    width: 940px;
+    margin: 0 auto;
+    max-width: 100%;
+}

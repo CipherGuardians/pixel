@@ -1,0 +1,70 @@
+.section-4 {
+    background-color: rgb(34, 35, 37);
+    padding-bottom: 79px;
+    padding-top: 79px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+    margin-right: 0;
+    text-align: center;
+}
+
+.contacts__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.contacts__item:last-child {
+    margin-bottom: 0;
+}
+
+.contacts__text {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+    margin-left: 12px;
+}
+
+.shedule__item {
+    margin-bottom: 12px;
+}
+
+.shedule__item:last-child {
+    margin-bottom: 0;
+}
+
+.shedule__title {
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 20px;
+    color: rgb(185, 185, 185);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.shedule__text {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+}
+
+.up {
+    cursor: pointer;
+}
+
+.up__arrow:hover {
+    transform: scale(1.2);
+}
