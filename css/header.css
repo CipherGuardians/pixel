@@ -1,5 +1,5 @@
 .section-1 {
-    background-image: url(/img/phone.png);
+    background-image: url(./img/phone.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 191px;
